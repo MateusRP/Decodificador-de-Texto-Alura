@@ -9,18 +9,21 @@
     <title>Decodificador de Texto</title>
 </head>
 <body>
+    <header>
+        <img class="logo" src="images/icone alura.png" alt="logo">
+    </header>
+    <h1>Challenge Alura: Decodificador de texto</h1>
     <main>
-        <h1>Challenge Alura: Decodificador de texto</h1>
         <section>
-            <textarea class="input_box" placeholder="Digite seu texto"></textarea>
+            <textarea class="input_box" cols="40" rows="4" placeholder="Digite seu texto"></textarea>
             <div class="hint"><p>Apenas letras minusculas e sem acento!</p></div>
             <div class="buttons">
-                <button class="btn_encript" onclick="btnEncrypt()">Criptografar</button>
+                <button class="btn_encrypt" onclick="btnEncrypt()">Criptografar</button>
                 <button class="btn_decrypt" onclick="btnDecrypt()">Descriptografar</button>
             </div>
         </section>
         <section>
-            <textarea class="output_box" placeholder="Texto resultado"></textarea>
+            <textarea class="output_box" cols="40" rows="4" placeholder="Texto resultado"></textarea>
         </section>
         
     </main>

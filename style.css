@@ -1,0 +1,77 @@
+* {
+    background: #1012aa;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 20px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10% 0 10%;
+}
+
+.input_box {
+    border: none;
+    color: black;
+    margin-top: 10%;
+    text-transform: lowercase;
+    resize: none;
+}
+
+::placeholder {
+    color: black;
+}
+
+.input_box:focus{
+    outline: none;
+}
+
+.buttons {
+    margin-top: 18px;
+}
+
+.btn_encrypt,
+.btn_decrypt {
+    background-color: #30cce0;
+    border: 1px solid #30cce0;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.hint {
+    color: black;
+    font-size: 32px;
+}
+
+.output_box {
+    background: white;
+    background-image: url(imagem/boneco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    margin-left: 5px;
+    margin-top: 80px;
+    padding-left: 5px;
+    resize: none;
+}
+
+.output_box:focus {
+    outline: none;
+}
